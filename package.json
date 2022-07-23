@@ -3,32 +3,8 @@
   "version": "1.0.0",
   "description": "Handy functions",
   "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    },
-    "./fs": {
-      "types": "./dist/fs.d.ts",
-      "import": "./dist/fs.js"
-    },
-    "./math": {
-      "types": "./dist/math.d.ts",
-      "import": "./dist/math.js"
-    },
-    "./module": {
-      "types": "./dist/module.d.ts",
-      "import": "./dist/module.js"
-    },
-    "./object": {
-      "types": "./dist/object.d.ts",
-      "import": "./dist/object.js"
-    },
-    "./text": {
-      "types": "./dist/text.d.ts",
-      "import": "./dist/text.js"
-    }
-  },
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.js",
   "scripts": {
     "prepublishOnly": "tsc"
   },
